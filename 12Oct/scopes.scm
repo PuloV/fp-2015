@@ -1,0 +1,10 @@
+#lang scheme
+(define (g a)
+	(define (square x)
+	    (* x x)
+	)
+	(define (sumOfSquare x y)
+	     (+ (square x) (square y))
+	)
+	(sumOfSquare (+ a 5) (- a 5))
+)
