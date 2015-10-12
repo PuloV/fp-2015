@@ -8,3 +8,13 @@
 	    )
 	)
 )
+
+(define (f2 x)
+	(define (helper iter result)
+		(if (<= iter 0)
+		    result
+		    (helper (- iter 1) (* result iter))
+		)
+	)
+	(helper x 1)
+)
