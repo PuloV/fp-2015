@@ -5,5 +5,5 @@
 * 	(rev 123) => 321
 
 # Нови неща
-* let
+* let,lambda, display, newline
 * [Standart](http://www.schemers.org/Documents/Standards/R5RS/HTML/)
