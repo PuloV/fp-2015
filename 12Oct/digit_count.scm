@@ -1,4 +1,4 @@
-#lang scheme
+#lang racket/base
 
 (define (digitCount x)
 	(if (>= x 9)

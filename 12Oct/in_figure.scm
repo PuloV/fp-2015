@@ -1,4 +1,4 @@
-#lang scheme
+#lang racket/base
 
 (define (curve x y)
   (and

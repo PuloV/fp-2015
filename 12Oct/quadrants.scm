@@ -1,4 +1,4 @@
-#lang scheme
+#lang racket/base
 
 (define (quadrants x y)
   (cond ((and (> x 0) (> y 0)) "TOP RIGHT")

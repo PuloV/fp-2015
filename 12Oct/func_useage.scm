@@ -1,4 +1,4 @@
-#lang scheme
+#lang racket/base
 
 (remainder 7 5)
 (remainder 10 5)

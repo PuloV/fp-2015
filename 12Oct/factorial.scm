@@ -1,4 +1,4 @@
-#lang scheme
+#lang racket/base
 
 (define (fact x)
 	(if (= x 1)

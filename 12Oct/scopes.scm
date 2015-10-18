@@ -1,4 +1,4 @@
-#lang scheme
+#lang racket/base
 (define (g a)
 	(define (square x)
 	    (* x x)
