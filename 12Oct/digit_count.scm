@@ -1,7 +1,7 @@
 #lang racket/base
 
 (define (digitCount x)
-	(if (>= x 9)
+	(if (<= x 9)
 	    1
 	    (+
 	    	1
