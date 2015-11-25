@@ -16,11 +16,11 @@
 1) (zad1 '() ) => 0
 
 2) `(calculate-list '() ) => 0`
-   (calculate-list '(1 + 2 - 4 + 5 ) ) => 4
-   (calculate-list '(1 + 2 - 4 + 5 * 4 ) ) => 19
-   (calculate-list '((1 + 2 - 4 + 5) * 4 ) ) => 16
+   `(calculate-list '(1 + 2 - 4 + 5 ) ) => 4`
+   `(calculate-list '(1 + 2 - 4 + 5 * 4 ) ) => 19`
+   `(calculate-list '((1 + 2 - 4 + 5) * 4 ) ) => 16`
 
-3) (binary-tree-sort '(3 2 6 9 1)) => '(1 2 3 6 9)
+3) `(binary-tree-sort '(3 2 6 9 1)) => '(1 2 3 6 9)`
 
 4) Нека Т e следното дърво :
 ```
@@ -29,13 +29,13 @@
   2	  4	  5	  6
  8 7
 ```
- (subtree T 2 #t) ще върне дървото
+ `(subtree T 2 #t)` ще върне дървото
 ```
   2
  8 7
 ```
 
- (subtree T 2 #f) ще върне дървото
+ `(subtree T 2 #f)` ще върне дървото
  ```
  	2
   2	  4
