@@ -12,13 +12,19 @@
 
 ### Примери
 
-1) (zad1 '(1 4 3 2 ) ) => -2
-1) (zad1 '() ) => 0
+1)
+```
+(zad1 '(1 4 3 2 ) ) => -2
+(zad1 '() ) => 0
+```
 
-2) `(calculate-list '() ) => 0`
-   `(calculate-list '(1 + 2 - 4 + 5 ) ) => 4`
-   `(calculate-list '(1 + 2 - 4 + 5 * 4 ) ) => 19`
-   `(calculate-list '((1 + 2 - 4 + 5) * 4 ) ) => 16`
+2)
+```
+(calculate-list '() ) => 0
+(calculate-list '(1 + 2 - 4 + 5 ) ) => 4
+(calculate-list '(1 + 2 - 4 + 5 * 4 ) ) => 19
+(calculate-list '((1 + 2 - 4 + 5) * 4 ) ) => 16
+```
 
 3) `(binary-tree-sort '(3 2 6 9 1)) => '(1 2 3 6 9)`
 
