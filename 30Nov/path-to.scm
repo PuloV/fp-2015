@@ -10,7 +10,7 @@
 	    	(
 	    		(path-from-x
 	    			(filter
-	    				(lambda (x) (eq? x (car x)))
+	    				(lambda (path) (eq? x (car path)))
 	    				(graph-paths graph)
 	    			)
 	    		)
