@@ -14,26 +14,6 @@
 (provide remove-node)
 (provide remove-path)
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 (define empty? null?)
 
 (define (contains? i l)
