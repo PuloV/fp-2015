@@ -1,0 +1,22 @@
+#lang racket/base
+
+(require racket/stream)
+(define (pairs)
+	(define (helper iter curr)
+		(cond
+			((= curr iter) (stream-cons (cons iter curr) (helper (+ iter 1) 1 )))
+		    (else (stream-cons (cons iter curr) (helper iter (+ curr 1))))
+		)
+	)
+	(helper 1 1)
+)
+(stream-ref (pairs) 0)
+(stream-ref (pairs) 1)
+(stream-ref (pairs) 2)
+(stream-ref (pairs) 3)
+(stream-ref (pairs) 4)
+(stream-ref (pairs) 5)
+(stream-ref (pairs) 6)
+(stream-ref (pairs) 7)
+(stream-ref (pairs) 8)
+(stream-ref (pairs) 9)
